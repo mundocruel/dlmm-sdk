@@ -1,3 +1,4 @@
+/*
 use anchor_lang::prelude::*;
 
 use crate::state::{
@@ -51,3 +52,4 @@ pub struct MigratePosition<'info> {
 pub fn handle(ctx: Context<MigratePosition>) -> Result<()> {
     Ok(())
 }
+*/

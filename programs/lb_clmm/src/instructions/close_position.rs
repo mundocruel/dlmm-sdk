@@ -1,3 +1,4 @@
+/*
 use anchor_lang::prelude::*;
 
 use crate::authorize_modify_position;
@@ -38,3 +39,4 @@ pub struct ClosePosition<'info> {
 pub fn handle(ctx: Context<ClosePosition>) -> Result<()> {
     Ok(())
 }
+*/

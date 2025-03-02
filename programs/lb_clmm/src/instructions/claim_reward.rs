@@ -1,3 +1,4 @@
+/*
 use crate::authorize_modify_position;
 use crate::state::{bin::BinArray, lb_pair::LbPair, position::PositionV2};
 use anchor_lang::prelude::*;
@@ -44,3 +45,4 @@ pub struct ClaimReward<'info> {
 pub fn handle(ctx: Context<ClaimReward>, index: u64) -> Result<()> {
     Ok(())
 }
+*/

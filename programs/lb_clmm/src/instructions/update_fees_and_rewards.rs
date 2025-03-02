@@ -1,3 +1,4 @@
+/*
 use crate::authorize_modify_position;
 use crate::state::{bin::BinArray, lb_pair::LbPair, position::PositionV2};
 use anchor_lang::prelude::*;
@@ -31,3 +32,5 @@ pub struct UpdateFeesAndRewards<'info> {
 pub fn handle(ctx: Context<UpdateFeesAndRewards>) -> Result<()> {
     Ok(())
 }
+
+*/

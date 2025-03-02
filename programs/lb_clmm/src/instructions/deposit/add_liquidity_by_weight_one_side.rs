@@ -1,3 +1,4 @@
+/*
 use crate::authorize_modify_position;
 use crate::constants::MAX_BIN_PER_POSITION;
 use crate::errors::LBError;
@@ -144,3 +145,4 @@ pub fn handle<'a, 'b, 'c, 'info>(
 ) -> Result<()> {
     Ok(())
 }
+*/

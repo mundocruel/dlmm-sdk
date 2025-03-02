@@ -1,3 +1,4 @@
+/*
 use super::bin::Bin;
 use crate::{
     constants::{MAX_BIN_PER_POSITION, NUM_REWARDS},
@@ -364,3 +365,4 @@ impl PositionV2 {
         current_point < self.lock_release_point
     }
 }
+*/

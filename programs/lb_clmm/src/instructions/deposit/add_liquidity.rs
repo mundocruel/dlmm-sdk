@@ -1,3 +1,4 @@
+/*
 use crate::authorize_modify_position;
 use crate::state::bin_array_bitmap_extension::BinArrayBitmapExtension;
 use crate::state::position::PositionV2;
@@ -97,3 +98,4 @@ pub fn handle<'a, 'b, 'c, 'info>(
 ) -> Result<()> {
     Ok(())
 }
+*/

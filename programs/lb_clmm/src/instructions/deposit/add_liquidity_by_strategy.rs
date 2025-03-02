@@ -1,3 +1,4 @@
+/*
 use crate::constants::MAX_BIN_PER_POSITION;
 use crate::errors::LBError;
 use crate::manager::bin_array_manager::BinArrayManager;
@@ -401,3 +402,4 @@ impl Default for StrategyParameters {
         }
     }
 }
+*/

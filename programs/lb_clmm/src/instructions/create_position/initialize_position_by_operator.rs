@@ -1,3 +1,4 @@
+/*
 use crate::state::lb_pair::LbPair;
 use crate::state::position::PositionV2;
 use crate::utils::seeds;
@@ -13,7 +14,7 @@ pub struct InitializePositionByOperator<'info> {
 
     pub base: Signer<'info>,
     #[account(
-        init,        
+        init,
         seeds = [
             seeds::POSITION.as_ref(),
             lb_pair.key().as_ref(),
@@ -59,3 +60,4 @@ pub fn handle(
 ) -> Result<()> {
     Ok(())
 }
+*/

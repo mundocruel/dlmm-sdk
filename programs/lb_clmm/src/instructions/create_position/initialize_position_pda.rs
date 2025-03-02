@@ -1,3 +1,4 @@
+/*
 use crate::state::lb_pair::LbPair;
 use crate::state::position::PositionV2;
 use crate::utils::seeds;
@@ -12,7 +13,7 @@ pub struct InitializePositionPda<'info> {
 
     pub base: Signer<'info>,
     #[account(
-        init,        
+        init,
         seeds = [
             seeds::POSITION.as_ref(),
             lb_pair.key().as_ref(),
@@ -39,3 +40,4 @@ pub struct InitializePositionPda<'info> {
 pub fn handle(ctx: Context<InitializePositionPda>, lower_bin_id: i32, width: i32) -> Result<()> {
     Ok(())
 }
+*/

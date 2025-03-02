@@ -1,3 +1,4 @@
+/*
 use anchor_lang::prelude::*;
 
 use crate::state::{lb_pair::LbPair, position::PositionV2};
@@ -26,3 +27,4 @@ pub struct InitializePosition<'info> {
 pub fn handle(ctx: Context<InitializePosition>, lower_bin_id: i32, width: i32) -> Result<()> {
     Ok(())
 }
+*/
