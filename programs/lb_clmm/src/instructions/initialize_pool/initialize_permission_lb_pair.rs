@@ -30,6 +30,7 @@ pub struct InitPermissionPairIx {
 pub struct InitializePermissionLbPair<'info> {
     pub base: Signer<'info>,
 
+    /*
     #[account(
         init,
         seeds = [
@@ -42,6 +43,7 @@ pub struct InitializePermissionLbPair<'info> {
         payer = admin,
         space = 8 + LbPair::INIT_SPACE
     )]
+    */
     pub lb_pair: AccountLoader<'info, LbPair>,
 
     #[account(
