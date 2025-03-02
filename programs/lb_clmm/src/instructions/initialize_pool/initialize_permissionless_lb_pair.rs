@@ -14,7 +14,7 @@ use std::cmp::{max, min};
 #[derive(Accounts)]
 #[instruction(active_id: i32, bin_step: u16)]
 pub struct InitializeLbPair<'info> {
-    #[account(
+    /*#[account(
         init,
         seeds = [
             min(token_mint_x.key(), token_mint_y.key()).as_ref(),
@@ -25,7 +25,7 @@ pub struct InitializeLbPair<'info> {
         bump,
         payer = funder,
         space = 8 + LbPair::INIT_SPACE
-    )]
+    )]*/
     pub lb_pair: AccountLoader<'info, LbPair>,
 
     #[account(
