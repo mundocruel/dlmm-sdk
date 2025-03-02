@@ -30,7 +30,6 @@ pub struct InitPermissionPairIx {
 pub struct InitializePermissionLbPair<'info> {
     pub base: Signer<'info>,
 
-    /**/
     #[account(
         init,
         seeds = [
